@@ -12,14 +12,14 @@
 // -----------------------
 // Example
 const person = {
-    name: "John Doe",
-    age: 30,
-    email: "john@example.com",
+    name: "shekahr shikarwar",
+    age: 20,
+    email: "shekharshikarwar_@example.com",
     isSubscribed: true,
     hobbies: ["Reading", "Running", "Cooking"],
     address: {
-      city: "New York",
-      zipCode: "10001",
+      city: "India",
+      zipCode: "123",
     },
   };
   
@@ -29,18 +29,18 @@ const person = {
   console.log(jsonString);
   /* Output:
     {
-      "name":"John Doe",
-      "age":30,
-      "email":"john@example.com",
+      "name":"Shekhar shikarwar",
+      "age":20,
+      "email":"shekharshikarwar_@example.com",
       "isSubscribed":true,
       "hobbies":["Reading","Running","Cooking"],
-      "address":{"city":"New York","zipCode":"10001"}
+      "address":{"city":"india","zipCode":"123"}
     }
   */
   
   // Parse JSON string back to JavaScript object
   const parsedObject = JSON.parse(jsonString);
   
-  console.log(parsedObject.name); // Output: "John Doe"
+  console.log(parsedObject.name); // Output: "Shekhar shikarwar"
   console.log(parsedObject.hobbies); // Output: ["Reading", "Running", "Cooking"]
   // -----------------------
