@@ -19,7 +19,7 @@ function greet() {
     console.log(`Hello ${username}`);
   }
   
-  sayHello("HuXn"); // calling function
+  sayHello("shekhar"); // calling function
   // -------------------------------
   // The return statement can be used to return the value to a function call.
   function add(numberOne, numberTwo) {
@@ -45,14 +45,14 @@ function sayHello(username) {
     console.log(`Hello ${username}`);
   }
   
-  sayHello("HuXn");
+  sayHello("shekhar");
   
   // Function Expressions
   const greetings = function (user) {
     console.log(`Hello ${user}`);
   };
   
-  greetings("Doe");
+  greetings("lol");
   
   // -------------------------
   console.log(x1); // ERROR
@@ -87,7 +87,7 @@ function showCallFunc(fn) {
   }
   
   // passing function as an argument (callback)
-  greet("Peter", callMe);
+  greet("lol", callMe);
   // -------------------------------
   
 
@@ -128,8 +128,8 @@ console.log(textMessage); // Access Global Scope
 // }
 
 // const person = {
-//   name: "John",
-//   age: 30,
+//   name: "shekhar",
+//   age: 20,
 //   greet,
 // };
 
@@ -138,7 +138,7 @@ console.log(textMessage); // Access Global Scope
 // ------------------------------------
 
 const person = {
-    name: "HuXn",
+    name: "shekhar",
     age: 19,
     greet: function greet() {
       return `Hello, my name is ${person.name} and I am ${person.age} years old.`;
