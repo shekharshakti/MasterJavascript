@@ -33,8 +33,8 @@ let fullName = firstName + lastName;
 
 let favActorFirstName = "Bertram";
 let favActorLastName = "Gilfoyle";
-let fullName = favActorFirstName + " " + favActorLastName;
-let uppercase = fullName.toUpperCase();
+let fullName1 = favActorFirstName + " " + favActorLastName;
+let uppercase = fullName1.toUpperCase();
 let message = `My Favorite Actor is ${uppercase}, `;
 message += `his best show is silicon valley`;
 console.log(message);
