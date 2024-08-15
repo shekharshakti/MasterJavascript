@@ -43,7 +43,7 @@ console.log(myArray[1]); // "e"
 // 4. Create array name (mixedArr) store ["string", ["otherarray"], 123, true]
 // 5. Now Access each item in that array by using [] notation.
 
-const favSingers = ["21 Savage", "Post Malone", "NF"];
+const favSingers = ["Diljit Dosanjh", "Arjit singh", "Arti thakur"];
 console.log(favSingers[0]);
 
 const favNumbers = [321, 123, 1, 23];
