@@ -29,3 +29,12 @@ let fullName = firstName + lastName;
 
 //8. TRIM
 // console.log(fullName.trim());
+
+
+let favActorFirstName = "Bertram";
+let favActorLastName = "Gilfoyle";
+let fullName = favActorFirstName + " " + favActorLastName;
+let uppercase = fullName.toUpperCase();
+let message = `My Favorite Actor is ${uppercase}, `;
+message += `his best show is silicon valley`;
+console.log(message);
