@@ -7,9 +7,9 @@
 // ------------------------
 // Creating Object
 let person = {
-    firstName: "HuXn",
-    lastName: "WebDev",
-    age: 18,
+    firstName: "shekhar",
+    lastName: "shikarwar",
+    age: 20,
     location: ["Planet", "Earth"],
     isProgrammer: true,
   };
@@ -22,7 +22,7 @@ let person = {
   
   // Updating Properties
   console.log(person.firstName);
-  console.log((person.firstName = "Sam"));
+  console.log((person.firstName = "Shakti"));
   
   // Add new properties
   console.log((person.isProgrammer = false));
